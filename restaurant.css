@@ -1,0 +1,150 @@
+  body {
+            background-image: url('image/background.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        .banner img {
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    
+        .login-button {
+            display: block;
+            width: 150px;
+            height: 53px;
+            margin: 0 auto;
+           	background-color: transparent;
+           	box-shadow: 0 0 0 2px gray;                      
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 250px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        .board {
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border: 2px solid #898887;
+        }
+    
+        .post {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    
+        .post .author {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    
+        .post .content {
+            margin-bottom: 10px;
+        }
+    
+        .comment {
+            margin-left: 20px;
+            padding-left: 10px;
+            border-left: 1px solid #ccc;
+        }
+    
+        .comment .author {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    
+        .comment .content {
+            margin-bottom: 10px;
+        }
+    
+        .restaurant-list {
+    		display: flex;
+    		flex-wrap: wrap;
+    		justify-content: flex-start;
+    		margin: 20px;
+    		max-width: 1200px;
+    		margin-left: auto;
+    		margin-right: auto; 
+    		border-radius: 5px;
+		}
+
+		.restaurant {
+   		 width: calc(25% - 15px);
+    		margin-bottom: 20px;
+    		margin-right: 15px;
+   		 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    		border-radius: 5px;
+    		overflow: hidden;
+    		border: 3px solid #898887; /* 내부 테두리 선 */
+    		margin-left: auto;
+    		margin-right: auto;
+		}
+
+  
+        .restaurant-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            
+        }
+  
+        .restaurant h3 {
+            text-align: center;
+            margin: 10px 0;
+            padding: 0;
+        }
+  
+        /* 폼 스타일링 */
+        form {
+            margin-bottom: 10px;
+        }
+  
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+  
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+  
+        button[type="submit"] {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+  
+        .add-comment-form {
+            display: none;
+            margin-top: 10px;
+        }
+  
+        .post-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+  
+        .comment-button {
+            background-color: #e0e0e0;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
